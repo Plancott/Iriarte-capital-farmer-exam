@@ -2,6 +2,8 @@ from sqlalchemy import Column, Integer, String, Float, DateTime
 from datetime import datetime
 from .database import Base
 
+
+#Modelo de datos para las cotizaciones
 class Cotizacion(Base):
     __tablename__ = "cotizaciones"
 

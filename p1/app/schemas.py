@@ -2,6 +2,8 @@ from pydantic import BaseModel
 from datetime import datetime
 from pydantic import ConfigDict
 
+
+# Modelo de datos para las cotizaciones
 class CotizacionCreate(BaseModel):
     nombre_cliente: str
     email: str
